@@ -1,0 +1,164 @@
+.navbar{
+    background-color: blueviolet;
+    position: sticky;
+    top: 5px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    /* padding-left: 100px; */
+    font-size: 20px;
+    animation: demo2 1s linear 2s infinite normal;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.heading {
+    margin-top: 100px;
+    text-align: center;
+    background-color: green;
+    text-decoration: underline;
+    text-decoration-style: double;
+    transition: 1s ease;
+    
+}
+
+.heading:hover {
+    color: #AAF683;
+    background-color: #EE6055;
+    font-size: 10px;
+    transform: rotate(360deg);
+}
+
+.discover {
+    background-color: darkcyan;
+}
+
+.head1 {
+    text-align: center;
+    background-color: goldenrod;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    transition: 1s ease-in;
+    
+}
+
+.head1:hover {
+    color: bisque;
+    background-color: aqua;
+    padding: 10px;
+    transform: scale(1.1);
+}
+
+.festival {
+    background-color: indianred;
+}
+
+.diwali {
+    margin-left: 315px;
+}
+
+.head2 {
+    text-align: center;
+    background-color: chocolate;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: 1s ease-out;
+    
+}
+
+.head2:hover {
+    background-color: azure;
+    color: blueviolet;
+    /* margin: 30px; */
+    line-height: 40px;
+    transform: translate(5px);
+}
+
+.language {
+    background-color: darkred;
+}
+
+.popular {
+    text-align: center;
+    background-color: burlywood;
+    padding-right: 8px;
+}
+
+.region {
+    margin: 0px;
+    color: white;
+}
+.fun{
+    text-align: center;
+    padding-right: 120px;
+    color: black;
+}
+
+.tradition {
+    text-align: center;
+    background-color: mediumslateblue;
+    text-decoration: underline;
+    transition: 1s ease-in-out;
+    
+}
+
+.tradition:hover {
+    background-color: brown;
+    color: chartreuse;
+    margin: 40px;
+    transform: skew(30deg);
+}
+
+table{
+    background-color: blue;
+}
+
+.cloth {
+    background-color: deeppink;
+}
+
+.saree {
+    margin-left: 310px;
+}
+
+.footer {
+    background-color: cyan;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(90deg,#AAF683,#EE6055,#FFD97D);
+    background-repeat: no-repeat;
+}
+
+ @media screen and (max-width:410px) {
+    .navbar {
+        width: 400px;
+    }
+    .navbar ul li {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .diwali {
+        margin-right: 600px;
+    }
+} 
+
+@keyframes demo2 {
+    0% {font-size: 20px;
+    background-color: aqua;}
+    50% {font-size: 25px;
+    background-color: crimson;}
+    100% {font-size: 30px;
+    background-color: darkorchid;}
+}

@@ -1,0 +1,116 @@
+.navbar{
+    background-color: lightgreen;
+    position: sticky;
+    top: 5px;
+    animation: demo5 1s linear 2s infinite alternate-reverse;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    /* padding-left: 100px; */
+    font-size: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.contact {
+    margin-top: 100px;
+    text-align: center;
+    background-color: coral;
+    text-decoration: underline;
+    text-decoration-style: double;
+    transition: 1s ease;
+    
+}
+
+.contact:hover {
+    background-color: seagreen;
+    color: thistle;
+    font-size: 28px;
+    transform: rotate(360deg);
+}
+
+.inquiry {
+    color: bisque;
+    background-color: blueviolet;
+}
+
+.student {
+    text-align: center;
+    background-color: indianred;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    transition: 1s ease-in;
+    
+}
+
+.student:hover {
+    background-color: rosybrown;
+    color: rebeccapurple;
+    padding: 10px;
+    transform: scale(1.5);
+}
+
+.registration {
+    text-align: center;
+    background-color: goldenrod;
+    width: 290px;
+    margin-left: 390px;
+}
+
+.information {
+    text-align: center;
+    background-color: blue;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    animation: demo5 1s linear 2s infinite alternate-reverse;
+    transition: 1s ease-out;
+    
+}
+
+.information:hover {
+    color: purple;
+    line-height: 45px;
+    transform: translateY(10px);
+}
+
+.explore {
+    text-align: center;
+    color: white;
+    background-color: aqua;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+    color: cornsilk;
+    background-color: magenta;
+}
+
+body {
+    background-image: linear-gradient(50deg,#C4FFB2,#7D82B8 50%);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:400px) {
+    .navbar {
+        width: 400px;
+    }
+    .navbar ul li {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+}
+
+@keyframes demo5 {
+    0% {background-color: lightgreen;}
+    100% {background-color: darkslategray;}
+}

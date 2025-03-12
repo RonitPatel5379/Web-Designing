@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+        .div1{
+            background-color: purple;
+            color: white;
+        }
+        .div2{
+            background-color: orange;
+            height: 200px;
+            padding: 5px;
+        }
+        .div3{
+            background-color: black;
+            color: white;
+            width: 700px;
+            margin: 10px;
+            border: 1px white;
+        }
+        .div4{
+            background-color: black;
+            color: white;
+            width: 200px;
+            height: 100px;
+           
+            border: 1px white;
+        }
+        .div5{
+            background-color: blue;
+            color:white;
+        }
+        @media  screen and (max-width:1006px) {
+            .div1{
+                width: 620px;
+            }
+            .div5{
+                width: 620px;
+            }
+            .div3{
+                width: 400px;
+            }
+            .div2{
+                height: 400px;
+                display: inline-block;
+                width: 610px;
+            }
+            .div4{
+                height: 200px;
+                width: 200px;
+               display: inline-block;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <h4>Page</h4>
+    <div class="div1">Header</div>
+    <div class="div2">
+       <div> Content</div>
+        <div style="float: left;padding: 15px;">
+        <div class="div3">Entry</div>
+        <div class="div3">Entry</div>
+        <div class="div3">Entry</div>
+    </div>
+    <div style="float: right;padding: 15px;">
+        <div class="div4">Sidebar</div>
+    </div>
+    </div>
+    <div class="div5">&#169;Darshan University-Rajkot</div>
+</body>
+</html>

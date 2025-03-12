@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: demo;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-direction: normal;
+            animation-timing-function: ease;
+        }
+        .a1{
+            margin-top: 20px;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: demo;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-direction: reverse;
+            animation-timing-function: ease-in;
+        }
+        .a2{
+            margin-top: 20px;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: demo;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-direction: alternate;
+            animation-timing-function: ease-out;
+        }
+        .a3{
+            margin-top: 20px;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: demo;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-direction: alternate-reverse;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes demo {
+            0%{
+                background-color: red;
+                top: 0px;
+                left: 0px;
+            }
+            
+            100%{
+                background-color: blue;
+                top: 0px;
+                left: 980px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="a1"></div>
+    <div class="a2"></div>
+    <div class="a3"></div>
+</body>
+</html>
